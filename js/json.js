@@ -4,6 +4,14 @@
 // Term 0112
 
 
+
+
+
+
+
+
+
+
 var json = {
 	"item1": {
 		"group": ["Group:", "Own"],
@@ -11,7 +19,14 @@ var json = {
 		"purchased": ["Purchase Date", "2011-09-10"],
 		"rating": ["Rating", "5"],
 		"toe": ["Type of Electronic", "Phone"], 
+		"favorite": ["Favorite:", "Yes"],
 		"notes": ["Notes", "Bad Reception"]
+		
+		
+}
+		}
+		
+		/*
 	},
 	"item2": {
 		"group": ["Group:", "Owned"],

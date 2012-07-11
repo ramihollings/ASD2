@@ -3,7 +3,7 @@
 // Term 0112
 var parseTheForm = function(data){
 
-};
+
 $(document).ready(function(){
 
 	var rbform = $("#dataEntry");
@@ -16,10 +16,24 @@ $(document).ready(function(){
 		}
 	});
 
+
+
+	$('#form').submit(function() {
+		alert('Handler for .submit() called.');
+		return false;
+	});
 });
 
+};
 
 
+
+var populateData = function(){
+	
+	$("form").getJSON("js/json.js"["json"]success[])
+	
+
+};
 
 
 

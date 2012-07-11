@@ -78,7 +78,7 @@
 				</div>
 				<div data-role="fieldcontain">
 					<label for="groupItem"><em>* </em>Group:</label>
-					<select name="groupItem" id="groupItem" data-native-menu="false" />
+					<select name="group" id="groupItem" data-native-menu="false" />
 					<optgroup label="Choose Group">
 						<option value="own">Own</option>
 						<option value="owned">Owned</option>				
@@ -88,15 +88,15 @@
 				</div>
 				<div data-role="fieldcontain">
 					<label for="nameItem"><em>* </em>Name of Electronic:</label>
-					<input type="text" name="nameItem" id="nameItem" class="required" />
+					<input type="text" name="name" id="nameItem" class="required" />
 				</div>
 				<div data-role="fieldcontain">
-					<label for="dateItem"><em>* </em>Purchase Date</label>
-					<input type="date" value="02-17-2012"name="dateItem" id="dateItem"/>
+					<label for="date"><em>* </em>Purchase Date</label>
+					<input type="date" value="02-17-2012"name="purchase" id="dateItem"/>
 				</div>
 				<div data-role="fieldcontain">
 					<label for="nameItem">Rate it on Scale of 1-5:</label>
-					<input type="range" name="rangeItem" id="rangeItem" value="3" min="1" max="5" />
+					<input type="range" name="range" id="rangeItem" value="3" min="1" max="5" />
 				</div>
 				<div data-role="fieldcontain">
 					<fieldset data-role="controlgroup">
@@ -111,7 +111,7 @@
 				</div>
 				<div data-role="fieldcontain" data-theme="a">
 					<label for="favItem">Favorite:</label>
-					<select data-role="slider" name="favItem" id="favItem" />
+					<select data-role="slider" name="favorite" id="favItem" />
 					<option value="on">Yes</option>
 					<option value="off">No</option>
 					</select>
@@ -122,12 +122,21 @@
 					<textarea>Enter your notes here...</textarea>				
 				</div>
 				<div>
-					<input type="submit" value="Add Item" data-icon="check" data-iconpos="right"data-theme="b"/>					
+					<input type="submit" value="Add Item" data-icon="check" data-iconpos="right"data-theme="b" id="submit"/>					
 				</div>
 				<div>
-					<input type="reset" data-iconpos="right" data-icon="delete" value="Cancel" data-theme="a"/>
+					<input type="reset" data-iconpos="right" data-icon="delete" value="Cancel" data-theme="a" id= "delete"/>
 				</div>
 			</form>
+				<div data-role="footer" data-position="fixed">
+					<div data-role="navbar">  
+					<ul>
+						<li><a id="i1" 	href="#" data-icon="grid" data-iconpos="top">Input 1</a></li>
+						<li><a id="id2"	href="#" data-icon="star" class="ui-btn-active" data-iconpos="top">Input 2</a></li>
+						<li><a id="id3"	href="#" data-icon="gear" data-iconpos="top">Input 3</a></li>
+					</ul>
+					</div>
+				</div>
 		</div>
 	</div>
 
