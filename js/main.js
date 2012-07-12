@@ -1,6 +1,58 @@
-// Project: 4
+// Project: 2
 // Rami Hollingsworth
-// Term 0112
+// Term 0612
+
+
+
+$(document).ready(function(){
+    //attach a jQuery live event on firs button
+    $('a').live('click', function(){
+        $.get('xhr/data.php', function(data) {
+            alert(data); //uncomment this for debug
+            alert (data.item1+" "+data.item2+" "+data.item3); //further debug
+            $('#showdata').html("<p>item1="+data.item1+" item2="+data.item2+" item3="+data.item3+"</p>");
+        });
+    });
+});
+
+
+
+
+
+
+
+
+
+/*
+
+$(document).ready(function(){
+	
+
+	
+	$("a").click(function(){
+	
+		
+		$.ajax({
+  url: “js/json.js”,
+  type: “GET”,
+  dataType: “json”,
+  success: function(result){ 
+    console.log(result); 
+  },
+  error: function(result){ 
+    console.log(result); 
+  }
+  		});
+		
+	});	
+});
+
+
+
+
+
+
+/*
 var parseTheForm = function(data){
 
 
@@ -16,8 +68,19 @@ $(document).ready(function(){
 		}
 	});
 
+});
 
 
+var saveData = function(data){
+	
+	$("#dataEntry").serialize();
+
+
+
+
+	};
+};
+/*
 	$('#form').submit(function() {
 		alert('Handler for .submit() called.');
 		return false;

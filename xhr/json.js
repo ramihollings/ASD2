@@ -1,7 +1,7 @@
 // DOCTYPE html
-// Project: 2
+// Project: 4
 // Rami Hollingsworth
-// Term 0612
+// Term 0112
 
 
 
@@ -11,7 +11,7 @@
 
 
 
-// JSON data to pull
+
 var json = {
 	"item1": {
 		"group": ["Group:", "Own"],
