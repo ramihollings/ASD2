@@ -1,0 +1,307 @@
+// DOCTYPE html
+// Project: 2
+// Rami Hollingsworth
+// Term 0612
+
+
+
+<?xml version="1.0" encoding="UTF-8" ?>
+	
+	
+	// JSON data to pull
+	<item1>
+		<group>Group:</group>
+		<group>Own</group>
+		<name>Name of Electronic:</name>
+		<name>Samsung Galaxy S2</name>
+		<purchased>Purchase Date</purchased>
+		<purchased>2011-09-10</purchased>
+		<rating>Rating</rating>
+		<rating>5</rating>
+		<toe>Type of Electronic</toe>
+		<toe>Phone</toe>
+		<favorite>Favorite:</favorite>
+		<favorite>Yes</favorite>
+		<notes>Notes</notes>
+		<notes>Bad Reception</notes>
+	</item1>
+	<item2>
+		<group>Group:</group>
+		<group>Owned</group>
+		<name>Name of Electronic:</name>
+		<name>Samsung Galaxy S1</name>
+		<purchased>Purchase Date</purchased>
+		<purchased>2011-02-10</purchased>
+		<rating>Rating</rating>
+		<rating>3</rating>
+		<toe>Type of Electronic</toe>
+		<toe>Phone</toe>
+		<notes>Notes</notes>
+		<notes>Small Screen</notes>
+	</item2>
+	<item3>
+		<group>Group:</group>
+		<group>Own</group>
+		<name>Name of Electronic:</name>
+		<name>Samsung Galaxy Nexus</name>
+		<purchased>Purchase Date</purchased>
+		<purchased>2011-12-25</purchased>
+		<rating>Rating</rating>
+		<rating>5</rating>
+		<toe>Type of Electronic</toe>
+		<toe>Phone</toe>
+		<notes>Notes</notes>
+		<notes>Perfect phone even on Verizon</notes>
+	</item3>
+	<item4>
+		<group>Group:</group>
+		<group>Owned</group>
+		<name>Name of Electronic:</name>
+		<name>iPhone</name>
+		<purchased>Purchase Date</purchased>
+		<purchased>2007-01-11</purchased>
+		<rating>Rating</rating>
+		<rating>2</rating>
+		<toe>Type of Electronic</toe>
+		<toe>Phone</toe>
+		<notes>Notes</notes>
+		<notes>Glorified MP3 player</notes>
+	</item4>
+	<item5>
+		<group>Group:</group>
+		<group>Owned</group>
+		<name>Name of Electronic:</name>
+		<name>iPod Touch Gen3</name>
+		<purchased>Purchase Date</purchased>
+		<purchased>2010-02-16</purchased>
+		<rating>Rating</rating>
+		<rating>4</rating>
+		<toe>Type of Electronic</toe>
+		<toe>Other</toe>
+		<notes>Notes</notes>
+		<notes>Best MP3 of all Time</notes>
+	</item5>
+	<item6>
+		<group>Group:</group>
+		<group>Owned</group>
+		<name>Name of Electronic:</name>
+		<name>iPhone 4</name>
+		<purchased>Purchase Date</purchased>
+		<purchased>2010-09-17</purchased>
+		<rating>Rating</rating>
+		<rating>4</rating>
+		<toe>Type of Electronic</toe>
+		<toe>Phone</toe>
+		<notes>Notes</notes>
+		<notes>Great phone but you don't need it if you have an iPad.</notes>
+	</item6>
+	<item7>
+		<group>Group:</group>
+		<group>Owned</group>
+		<name>Name of Electronic:</name>
+		<name>Evo 4G</name>
+		<purchased>Purchase Date</purchased>
+		<purchased>2009-05-10</purchased>
+		<rating>Rating</rating>
+		<rating>4</rating>
+		<toe>Type of Electronic</toe>
+		<toe>Phone</toe>
+		<notes>Notes</notes>
+		<notes>First 4g Phone</notes>
+	</item7>
+	<item8>
+		<group>Group:</group>
+		<group>Want</group>
+		<name>Name of Electronic:</name>
+		<name>Samsung Galaxy Note</name>
+		<purchased>Purchase Date</purchased>
+		<purchased>2012-05-10</purchased>
+		<rating>Rating</rating>
+		<rating>3</rating>
+		<toe>Type of Electronic</toe>
+		<toe>Phone</toe>
+		<notes>Notes</notes>
+		<notes>Large Screen</notes>
+	</item8>
+	<item9>
+		<group>Group:</group>
+		<group>Want</group>
+		<name>Name of Electronic:</name>
+		<name>Nokia N910</name>
+		<purchased>Purchase Date</purchased>
+		<purchased>2012-12-25</purchased>
+		<rating>Rating</rating>
+		<rating>3</rating>
+		<toe>Type of Electronic</toe>
+		<toe>Phone</toe>
+		<notes>Notes</notes>
+		<notes>Windows Phone</notes>
+	</item9>
+	<item10>
+		<group>Group:</group>
+		<group>Own</group>
+		<name>Name of Electronic:</name>
+		<name>iPad2</name>
+		<purchased>Purchase Date</purchased>
+		<purchased>2011-08-24</purchased>
+		<rating>Rating</rating>
+		<rating>5</rating>
+		<toe>Type of Electronic</toe>
+		<toe>Other</toe>
+		<notes>Notes</notes>
+		<notes>Best Tablet so far</notes>
+	</item10>
+	<item11>
+		<group>Group:</group>
+		<group>Owned</group>
+		<name>Name of Electronic:</name>
+		<name>Samsung Galaxy Tab</name>
+		<purchased>Purchase Date</purchased>
+		<purchased>2011-09-10</purchased>
+		<rating>Rating</rating>
+		<rating>4</rating>
+		<toe>Type of Electronic</toe>
+		<toe>Other</toe>
+		<notes>Notes</notes>
+		<notes>Very Slow</notes>
+	</item11>
+	<item12>
+		<group>Group:</group>
+		<group>Own</group>
+		<name>Name of Electronic:</name>
+		<name>HTC Flyer</name>
+		<purchased>Purchase Date</purchased>
+		<purchased>2011-12-20</purchased>
+		<rating>Rating</rating>
+		<rating>4</rating>
+		<toe>Type of Electronic</toe>
+		<toe>Other</toe>
+		<notes>Notes</notes>
+		<notes>Slow but has a Digital Pen</notes>
+	</item12>
+	<item13>
+		<group>Group:</group>
+		<group>Owned</group>
+		<name>Name of Electronic:</name>
+		<name>Motorola Atrix</name>
+		<purchased>Purchase Date</purchased>
+		<purchased>2010-12-20</purchased>
+		<rating>Rating</rating>
+		<rating>5</rating>
+		<toe>Type of Electronic</toe>
+		<toe>Phone</toe>
+		<notes>Notes</notes>
+		<notes>Super Phone. Screen to small</notes>
+	</item13>
+	<item14>
+		<group>Group:</group>
+		<group>Own</group>
+		<name>Name of Electronic:</name>
+		<name>HTC Sensation 4g</name>
+		<purchased>Purchase Date</purchased>
+		<purchased>2011-02-10</purchased>
+		<rating>Rating</rating>
+		<rating>4</rating>
+		<toe>Type of Electronic</toe>
+		<toe>Phone</toe>
+		<notes>Notes</notes>
+		<notes>Wife's Phone</notes>
+	</item14>
+	<item15>
+		<group>Group:</group>
+		<group>Owned</group>
+		<name>Name of Electronic:</name>
+		<name>Sony Xperia</name>
+		<purchased>Purchase Date</purchased>
+		<purchased>2008-12-25</purchased>
+		<rating>Rating</rating>
+		<rating>1</rating>
+		<toe>Type of Electronic</toe>
+		<toe>Phone</toe>
+		<notes>Notes</notes>
+		<notes>Sony makes horrible phones</notes>
+	</item15>
+	<item16>
+		<group>Group:</group>
+		<group>Owned</group>
+		<name>Name of Electronic:</name>
+		<name>LG 2974</name>
+		<purchased>Purchase Date</purchased>
+		<purchased>2006-09-10</purchased>
+		<rating>Rating</rating>
+		<rating>5</rating>
+		<toe>Type of Electronic</toe>
+		<toe>Phone</toe>
+		<notes>Notes</notes>
+		<notes>Korean phone with Video Talk.Last phone in Korea.</notes>
+	</item16>
+	<item17>
+		<group>Group:</group>
+		<group>Own</group>
+		<name>Name of Electronic:</name>
+		<name>Motorola ACTV </name>
+		<purchased>Purchase Date</purchased>
+		<purchased>2011-11-26</purchased>
+		<rating>Rating</rating>
+		<rating>5</rating>
+		<toe>Type of Electronic</toe>
+		<toe>Other</toe>
+		<notes>Notes</notes>
+		<notes>BLACK FRIDAY… Best smart watch and sport watch.Hack to run full Android 2.3</notes>
+	</item17>
+	<item18>
+		<group>Group:</group>
+		<group>Own</group>
+		<name>Name of Electronic:</name>
+		<name>MacBook Pro</name>
+		<purchased>Purchase Date</purchased>
+		<purchased>2011-06-10</purchased>
+		<rating>Rating</rating>
+		<rating>5</rating>
+		<toe>Type of Electronic</toe>
+		<toe>Other</toe>
+		<notes>Notes</notes>
+		<notes>I will never go back to PC</notes>
+	</item18>
+	<item19>
+		<group>Group:</group>
+		<group>Owned</group>
+		<name>Name of Electronic:</name>
+		<name>iPod Nano 5GEN</name>
+		<purchased>Purchase Date</purchased>
+		<purchased>2011-01-13</purchased>
+		<rating>Rating</rating>
+		<rating>4</rating>
+		<toe>Type of Electronic</toe>
+		<toe>Other</toe>
+		<notes>Notes</notes>
+		<notes>First Smart watch</notes>
+	</item19>
+	<ite20>
+		<group>Group:</group>
+		<group>Owned</group>
+		<name>Name of Electronic:</name>
+		<name>Nook Color</name>
+		<purchased>Purchase Date</purchased>
+		<purchased>2010-12-16</purchased>
+		<rating>Rating</rating>
+		<rating>2</rating>
+		<toe>Type of Electronic</toe>
+		<toe>Other</toe>
+		<notes>Notes</notes>
+		<notes>Poor quality Tablet</notes>
+	</ite20>
+	<item21>
+		<group>Group:</group>
+		<group>Want</group>
+		<name>Name of Electronic:</name>
+		<name>PadPhone</name>
+		<purchased>Purchase Date</purchased>
+		<purchased>2012-09-17</purchased>
+		<rating>Rating</rating>
+		<rating>3</rating>
+		<toe>Type of Electronic</toe>
+		<toe>Phone</toe>
+		<notes>Notes</notes>
+		<notes>Phone and Tablet all in one.</notes>
+	</item21>
